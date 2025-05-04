@@ -3,178 +3,181 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ojijo Tom - Portfolio</title>
+    <title>Tom Ojijo - Software Engineer</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #1a1a1a;
-            color: white;
+            line-height: 1.6;
             margin: 0;
             padding: 0;
+            background: #f4f4f4;
+            color: #333;
         }
 
         header {
-            background-color: #333;
+            background: #333;
+            color: white;
+            padding: 20px 0;
             text-align: center;
-            padding: 40px;
+        }
+
+        header img {
+            width: 120px;
+            border-radius: 50%;
+            margin-bottom: 10px;
         }
 
         header h1 {
-            margin: 0;
-            font-size: 3em;
+            margin: 10px 0;
+            font-size: 28px;
         }
 
         header p {
-            font-size: 1.2em;
+            font-size: 16px;
+            margin: 5px 0;
         }
 
-        .hero {
-            margin-top: 20px;
-        }
-
-        .hero img {
-            width: 200px;
-            border-radius: 50%;
+        header .contact-info {
+            margin-top: 10px;
         }
 
         section {
+            margin: 20px auto;
             padding: 20px;
-            margin: 20px;
-            background-color: #222;
+            background: white;
             border-radius: 8px;
+            width: 80%;
+            max-width: 900px;
         }
 
-        h2 {
-            text-align: center;
-            font-size: 2em;
+        section h2 {
+            font-size: 24px;
+            color: #333;
             margin-bottom: 10px;
         }
 
-        .skills {
-            display: flex;
-            justify-content: space-around;
-            flex-wrap: wrap;
+        .tech-stack ul, .experience ul, .projects ul {
+            list-style-type: none;
+            padding-left: 0;
         }
 
-        .skill {
-            background-color: #444;
-            padding: 15px;
-            margin: 10px;
-            border-radius: 8px;
-            text-align: center;
-            width: 200px;
-        }
-
-        .skill h3 {
-            font-size: 1.5em;
-            margin-bottom: 10px;
-        }
-
-        .projects {
-            display: flex;
-            flex-direction: column;
-        }
-
-        .project {
-            background-color: #444;
-            padding: 15px;
-            margin: 10px;
-            border-radius: 8px;
+        .projects .project {
+            margin-bottom: 20px;
         }
 
         footer {
-            background-color: #333;
-            color: #fff;
-            padding: 20px;
+            background: #333;
+            color: white;
             text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
         }
 
         footer p {
             margin: 0;
-        }
-
-        a {
-            color: #fff;
-            text-decoration: none;
-        }
-
-        a:hover {
-            text-decoration: underline;
+            font-size: 14px;
         }
     </style>
 </head>
 <body>
-
-    <!-- Header Section -->
     <header>
-        <h1>Ojijo Tom</h1>
-        <p>Fullstack Developer | Android Developer | Computer Science Student</p>
-        <div class="hero">
-            <img src="https://i.imgur.com/EV9pP78.jpg" alt="Ojijo Tom">
+        <img src="https://i.imgur.com/EV9pP78.jpg" alt="Tom Ojijo">
+        <h1>Tom Ojijo</h1>
+        <p>Software Engineer | Freelancer | Tech Enthusiast</p>
+        <div class="contact-info">
+            <p>Email: ojijotom4@gmail.com</p>
+            <p>Phone: +254 721 956 607</p>
+            <p>Portfolio: <a href="https://ojijotom.github.io/ojijotom-portfolio/">My Portfolio</a></p>
+            <p>GitHub: <a href="https://github.com/ojijotom">github.com/ojijotom</a></p>
         </div>
     </header>
 
-    <!-- Skills Section -->
-    <section>
-        <h2>Skills</h2>
-        <div class="skills">
-            <div class="skill">
-                <h3>Fullstack Development</h3>
-                <p>Experience in both frontend and backend technologies</p>
-            </div>
-            <div class="skill">
-                <h3>Android Development</h3>
-                <p>Expertise in Kotlin and Java for building Android apps</p>
-            </div>
-            <div class="skill">
-                <h3>Blockchain</h3>
-                <p>Experience with smart contracts and decentralized applications (DApps)</p>
-            </div>
-            <div class="skill">
-                <h3>Database Management</h3>
-                <p>Working with SQL, Firebase, and Room Database</p>
-            </div>
-            <div class="skill">
-                <h3>React & JS</h3>
-                <p>Frontend development using React.js and JavaScript</p>
-            </div>
-        </div>
+    <section class="summary">
+        <h2>Professional Summary</h2>
+        <p>Creative and detail-oriented Software Engineer with a passion for solving problems through clean, scalable code. Skilled in fullstack and Android development, with a strong foundation in machine learning and DevOps. Known for delivering efficient apps and systems, blending logic and storytelling into every project. Eager to collaborate, innovate, and continuously learn.</p>
     </section>
 
-    <!-- Projects Section -->
-    <section>
+    <section class="tech-stack">
+        <h2>Tech Stack</h2>
+        <ul>
+            <li><strong>Languages:</strong> Kotlin, Java, JavaScript, Python, C, C++, Dart, PHP, HTML5, CSS3</li>
+            <li><strong>Mobile:</strong> Android, Jetpack Compose, Flutter</li>
+            <li><strong>Backend & Web:</strong> Django, Django REST, Node.js, Flask, Laravel, Spring</li>
+            <li><strong>Databases:</strong> MySQL, PostgreSQL, SQLite, MongoDB, Firebase</li>
+            <li><strong>Tools:</strong> Git, GitHub, GitLab, Docker, AWS, Azure, Heroku, Apache</li>
+            <li><strong>Frameworks/Libraries:</strong> React, NumPy, Pandas, Keras, TensorFlow</li>
+            <li><strong>Other:</strong> Blockchain Dev, Linux, REST APIs</li>
+        </ul>
+    </section>
+
+    <section class="projects">
         <h2>Projects</h2>
-        <div class="projects">
-            <div class="project">
-                <h3>Finance App</h3>
-                <p>A personal finance management app with features like bill payments, savings, and investments.</p>
-            </div>
-            <div class="project">
-                <h3>Law App</h3>
-                <p>An Android app for managing legal resources such as lawyer directories and court information.</p>
-            </div>
-            <div class="project">
-                <h3>Worker Manager Communication App</h3>
-                <p>A communication platform between workers and managers with task scheduling and worker dashboards.</p>
-            </div>
-            <div class="project">
-                <h3>Blockchain Demo</h3>
-                <p>A project showcasing the use of blockchain in creating decentralized applications (DApps) and smart contracts.</p>
-            </div>
+        <div class="project">
+            <h3>O-Invest</h3>
+            <p>Fintech app for payments and investments, integrated with Flutterwave API for seamless transactions.</p>
+        </div>
+        <div class="project">
+            <h3>LAW-MATE</h3>
+            <p>Legal reference app with offline database, built using Kotlin, Jetpack Compose, and Room for efficient law management.</p>
+        </div>
+        <div class="project">
+            <h3>TaskHive</h3>
+            <p>Worker-manager communication platform, featuring task scheduling and real-time updates using Kotlin and Jetpack Compose.</p>
+        </div>
+        <div class="project">
+            <h3>Nyadhoch-site</h3>
+            <p>A static responsive website for a business, built with HTML and CSS for an elegant user experience.</p>
+        </div>
+        <div class="project">
+            <h3>Meditrina, Instamart, Kenyatta Site</h3>
+            <p>Various front-end mini-projects showcasing HTML, CSS, and JavaScript skills.</p>
         </div>
     </section>
 
-    <!-- Contact Section -->
-    <section>
-        <h2>Contact</h2>
-        <p>Email: <a href="mailto:ojijotom4@gmail.com">ojijotom4@gmail.com</a></p>
-        <p>Phone: <a href="tel:+254721956607">0721956607</a></p>
+    <section class="experience">
+        <h2>Experience</h2>
+        <ul>
+            <li><strong>Freelance Software Engineer</strong> (2023–Present)</li>
+            <li><strong>Android Development Intern</strong>, [Company Name] (2022–2023)</li>
+        </ul>
     </section>
 
-    <!-- Footer -->
-    <footer>
-        <p>&copy; 2025 Ojijo Tom. All rights reserved.</p>
-    </footer>
+    <section class="certifications">
+        <h2>Certifications</h2>
+        <ul>
+            <li>Android Dev with Kotlin – eMobilis</li>
+            <li>Fullstack Web Development – [Platform]</li>
+            <li>Machine Learning with TensorFlow – [Platform]</li>
+        </ul>
+    </section>
 
+    <section class="highlights">
+        <h2>Highlights & Achievements</h2>
+        <ul>
+            <li>GitHub 'Pull Shark' Achievement</li>
+            <li>45+ public repositories</li>
+            <li>150+ commits in the past year</li>
+            <li>Active open-source contributor</li>
+        </ul>
+    </section>
+
+    <section class="soft-skills">
+        <h2>Soft Skills</h2>
+        <ul>
+            <li>Problem Solving</li>
+            <li>Time Management</li>
+            <li>Creativity</li>
+            <li>Teamwork</li>
+            <li>Communication</li>
+            <li>Rapid Learning</li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>Copyright © 2025 Tom Ojijo</p>
+    </footer>
 </body>
 </html>
+
